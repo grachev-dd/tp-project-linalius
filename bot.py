@@ -379,7 +379,7 @@ conv_handler = ConversationHandler(
 )
 
 if __name__ == "__main__":
-    TOKEN = "8819852259:AAGeIn10APJPB3dp5F9TEEC7YC_PdVxP3r4"
+    TOKEN = "TOKEN"
     app = ApplicationBuilder().token(TOKEN).request(custom_request).get_updates_request(custom_request).build()
 
     app.add_handler(conv_handler)
